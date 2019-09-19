@@ -1,0 +1,37 @@
+<style> 
+@font-face {
+	font-family: gm;
+	src: url('../game.ttf') format('truetype');
+	font-weight: bold;
+    	font-style: normal;
+	
+}
+	
+	
+body,font {
+			font-family: gm; font-size: 110%;
+			/* background:url("../1.jpg"); */
+			background-size: 500px 900px;
+			
+	
+	}
+
+
+	h1 {
+		font-family: gm; font-size: 180%
+		
+	}
+
+	.jumbotron {
+  
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  left: 40%;
+  
+}
+
+
+	
+</style>
