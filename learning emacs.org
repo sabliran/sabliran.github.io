@@ -1,0 +1,69 @@
+#+TITLE: Org-mode? I'd say more of a productive-mode..
+
+* why Org-mode 
+An exocortex is a hypothetical artificial external information processing 
+system that would augment a brain's biological high-level cognitive processes. 
+* shortcuts
+** Global
+- Mnemonics : w - windows, b - buffer, f - files, p - project
+** Editing files
+- Save file (SPC f - s || :w)
+- Undo (u)
+- Redo (ctl - r)
+- cut (d)
+- Copy paste (v to enter visual mode) y - yank, p - paste
+- To replace words ( :%/Word/ReplacementWord/gi(g for global, i for case insensitive)) ** Cursor has to be on top of the file(g-g).
+** Adding links
+- URL (C-c C-l C-y)
+(open with C-c C-o, or just click it {must contain https})
+
+[[https://www.duckduckgo.com][duckduckgo]]
+
+** You can link to other things besides websites
+files, emails, to-do items
+
+[[file:new][link to a file]]
+
+Store a link by pressing (SPC n - l)
+C-c C-l to apply it.
+
+* how ToDo
+use - (C - c C - t) to go through this loop.
+,-> (unmarked) -> TODO -> DONE --.
+'--------------------------------'
+
+* export to html with bootstrap
+- Installing the package: SPC SPC || M-x package-install [RET] ox-twbs [RET]  
+- SPC SPC org-twbs-export-to-html
+- (C - c C - e) to access the export menu
+  
+* Outline
+you can make outlines with (* )
+** inside the outlines
+You can use (Meta + arrows to push/pull the outlines to a preferable level)
+with (** )
+*** three
+(*** )
+**** four
+(****)
+
+* You can also reorder them:
+with Meta and arrow keys
+
+* Tables
+| table 1 | table 2 |
+|---------+---------|
+| 1       |    3    |
+
+* todo
+** upload the whole emacs backup to github 
+
+* Things to Learn
+** TODO Agenda in org-mode
+** TODO Todo for org-mode
+** TODO Literate Programming (Babel)
+** TODO Referencing Links from Files  
+** TODO treemacs Git-mode 
+* [[https://orgmode.org/org.pdf][man org-mode]]
+ 
+
